@@ -3143,6 +3143,13 @@
     tslib "2.3.1"
     uuid "8.3.2"
 
+"@nestjs/event-emitter@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/event-emitter/-/event-emitter-1.1.1.tgz#430b1493de6febd0644b9f6406eaf63def34e1fe"
+  integrity sha512-fOcV1sjOSeLA6hj7c++Ga3pZG62BcmSKn5sAE/M0fYwuKn3T3Bx9BQm9siLTRLwSY/kJjwHbhTgfnL1bfEqY3w==
+  dependencies:
+    eventemitter2 "6.4.5"
+
 "@nestjs/graphql@9.1.1":
   version "9.1.1"
   resolved "https://registry.npmjs.org/@nestjs/graphql/-/graphql-9.1.1.tgz"
@@ -3882,10 +3889,10 @@
   dependencies:
     "@openzeppelin/contracts-upgradeable" "^4.5.2"
 
-"@subql/indexer-admin@0.1.1-15":
-  version "0.1.1-15"
-  resolved "https://registry.yarnpkg.com/@subql/indexer-admin/-/indexer-admin-0.1.1-15.tgz#cf0d493e3e8c0691df009169174afa73df40c0e4"
-  integrity sha512-ou6tnQsrVOvpDeEzXBBy3TcBiWxNsTuFqJK3VROH6ChoR7FfJSJrclMl37AHtIUwl/iNhK/h9lU/PfUgY2JrFQ==
+"@subql/indexer-admin@0.1.1-17":
+  version "0.1.1-17"
+  resolved "https://registry.yarnpkg.com/@subql/indexer-admin/-/indexer-admin-0.1.1-17.tgz#bae7dda97fd3486fd08136e1d5c7238b35bda810"
+  integrity sha512-5o9Zpvsyz9xViguhwFr0I0ajUlGrVDZtJhfUE/h6tW6s6V9TvNCvGo9nhvRSVP1MY0N56QDofEXKPsvuYJuPPg==
   dependencies:
     "@apollo/client" "^3.4.17"
     "@emotion/react" "^11.8.2"
@@ -5161,6 +5168,11 @@
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
+
+"@willsoto/nestjs-prometheus@^4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@willsoto/nestjs-prometheus/-/nestjs-prometheus-4.6.0.tgz#27bb6bbb348bee18cea8db411e7d5558ed478309"
+  integrity sha512-T5OaGZBbmEoyRAnwTGWiTu99eVpu49j0yuwPuRg4Lr3PnTdW0G7KifdByohP1x0BGTXWdAvsRTZ69k6wKJIf7A==
 
 "@wry/context@^0.6.0":
   version "0.6.1"
@@ -8958,6 +8970,11 @@ event-target-shim@^5.0.0:
   version "5.0.1"
   resolved "https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz"
   integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
+
+eventemitter2@6.4.5:
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.4.5.tgz#97380f758ae24ac15df8353e0cc27f8b95644655"
+  integrity sha512-bXE7Dyc1i6oQElDG0jMRZJrRAn9QR2xyyFGmBdZleNmyQX0FqGYmhZIrIrpPfm/w//LTo4tVQGOGQcGCb5q9uw==
 
 eventemitter3@^3.1.0:
   version "3.1.2"
@@ -14810,7 +14827,7 @@ progress@^2.0.0:
 
 prom-client@^14.0.1:
   version "14.0.1"
-  resolved "https://registry.npmjs.org/prom-client/-/prom-client-14.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/prom-client/-/prom-client-14.0.1.tgz#bdd9583e02ec95429677c0e013712d42ef1f86a8"
   integrity sha512-HxTArb6fkOntQHoRGvv4qd/BkorjliiuO2uSWC2KC17MUTKYttWdDoXX/vxOhQdkoECEM9BBH0pj2l8G8kev6w==
   dependencies:
     tdigest "^0.1.1"
